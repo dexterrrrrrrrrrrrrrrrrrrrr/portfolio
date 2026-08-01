@@ -229,7 +229,7 @@ export const hackathons = [
   },
   {
     year: "2025",
-    name: "OUCODE Hackathon",
+    name: "OSCODE Hackathon",
     result: "Top 5",
     detail: "Prototyped an offline-first communication tool for campus emergencies.",
   },

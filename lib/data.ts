@@ -225,7 +225,7 @@ export const hackathons = [
     year: "2025",
     name: "Smart India Hackathon",
     result: "Winner — College Round",
-    detail: "Led a 4-person team building an ML-based environmental monitoring tool.",
+    detail: "Led a 6-person team building an ML-based environmental monitoring tool.",
   },
   {
     year: "2025",

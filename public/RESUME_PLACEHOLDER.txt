@@ -1,2 +1,0 @@
-Replace this with your real resume, saved as: public/resume.pdf
-The "Download Resume" button in Hero.tsx links to /resume.pdf.

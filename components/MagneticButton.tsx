@@ -11,6 +11,7 @@ type Props = {
   variant?: "primary" | "ghost";
   className?: string;
   as?: ElementType;
+  target?: string;
 };
 
 export default function MagneticButton({
@@ -19,6 +20,7 @@ export default function MagneticButton({
   onClick,
   variant = "primary",
   className,
+  target,
 }: Props) {
   const ref = useRef<HTMLDivElement>(null);
   const [pos, setPos] = useState({ x: 0, y: 0 });
@@ -49,7 +51,7 @@ export default function MagneticButton({
       <Tag
         href={href}
         onClick={onClick}
-        target={href?.startsWith("http") ? "_blank" : undefined}
+        target={target ?? (href?.startsWith("http") ? "_blank" : undefined)}
         rel={href?.startsWith("http") ? "noopener noreferrer" : undefined}
         className={clsx(
           "focus-ring relative inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-medium tracking-wide transition-colors duration-300",

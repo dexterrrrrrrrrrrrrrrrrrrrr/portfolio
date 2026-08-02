@@ -128,8 +128,8 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.45 }}
           className="mt-10 flex flex-wrap items-center gap-4"
         >
-          <MagneticButton href={profile.resumeUrl}>
-            <Download size={16} /> Download Resume
+          <MagneticButton href={profile.resumeUrl} target="_blank">
+            <Download size={16} /> View Resume
           </MagneticButton>
           <MagneticButton href="#projects" variant="ghost">
             <FolderGit2 size={16} /> View Projects

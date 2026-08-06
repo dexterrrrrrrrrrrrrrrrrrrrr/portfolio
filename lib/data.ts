@@ -145,6 +145,61 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://local-mesh-alert-system-tujp-9ah6jand1.vercel.app/",
   },
+{
+    slug: "ai-retinal-analyzer",
+    title: "AI Retinal Analyzer",
+    tag: "Computer Vision & Generative AI",
+    status: "Live",
+    description:
+      "An AI-powered web application that analyzes retinal fundus images using computer vision and Gemini AI to predict myopia and generate intelligent medical-style diagnostic reports.",
+    longDescription:
+      "AI Retinal Analyzer leverages Computer Vision techniques to detect and analyze key retinal structures such as the optic disc, blood vessels, and macula from fundus images. The extracted insights are combined with Gemini AI to produce detailed, easy-to-understand medical-style reports, helping users gain preliminary insights into potential eye conditions like myopia through a modern and intuitive web interface.",
+    tech: [
+      "Python",
+      "OpenCV",
+      "Computer Vision",
+      "Google Gemini",
+      "Streamlit",
+      "NumPy",
+      "Pillow",
+    ],
+    features: [
+      "AI-powered myopia prediction",
+      "Automatic retinal feature detection",
+      "Optic disc, macula & blood vessel analysis",
+      "Gemini-generated medical-style reports",
+      "Modern responsive Streamlit interface",
+    ],
+liveUrl: "https://eye-disease-prediction-ffdexterrrrrrrrrrrrr.streamlit.app/",
+  },
+  {
+    slug: "crop-yield-predictor",
+    title: "Crop Yield Predictor",
+    tag: "Machine Learning & Databricks",
+    status: "Live",
+    description:
+      "An AI-powered crop yield prediction platform built with Databricks, MLflow, and Streamlit that provides real-time yield forecasts based on agricultural and geographical inputs.",
+    longDescription:
+      "Crop Yield Predictor is an interactive machine learning application designed to help farmers, researchers, and policymakers estimate crop production using historical agricultural data. Built on Databricks with MLflow for model management, the application uses a trained Random Forest model to predict crop yield from inputs such as State, District, Season, Crop, Area, and Year. It features an intuitive Streamlit interface, robust preprocessing, and a fallback prediction model to ensure uninterrupted functionality even when the primary MLflow model is unavailable.",
+    tech: [
+      "Python",
+      "Databricks",
+      "MLflow",
+      "Random Forest",
+      "Scikit-learn",
+      "Pandas",
+      "Streamlit",
+    ],
+    features: [
+      "Real-time crop yield prediction",
+      "Databricks & MLflow model deployment",
+      "Random Forest machine learning model",
+      "Interactive Streamlit dashboard",
+      "Fallback prediction model for reliability",
+      "Historical agricultural data analysis",
+    ],
+    liveUrl: "https://crop-yield-app-bgvwzbzylwskquhwjgwric.streamlit.app/",
+  },
   {
     slug: "bharath-sync",
     title: "Bharath Sync",

@@ -61,7 +61,7 @@ export const experience = [
     tags: ["Next.js", "Python", "Machine Learning"],
   },
   {
-    period: "2023 — Present",
+    period: "2024 — Present",
     title: "Hackathon Builder",
     org: "Various",
     description:
@@ -69,7 +69,7 @@ export const experience = [
     tags: ["Rapid Prototyping", "Team Leadership"],
   },
   {
-    period: "2023 — Present",
+    period: "2024 — Present",
     title: "Community Organizer",
     org: "Open Source",
     description:

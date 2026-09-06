@@ -51,4 +51,4 @@ dependency you'd need to own.
 ## Stack
 
 Next.js 15 · React 18 · TypeScript · Tailwind CSS · Framer Motion · Lenis · Lucide Icons
-# portfolio
+

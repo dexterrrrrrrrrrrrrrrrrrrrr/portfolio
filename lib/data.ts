@@ -267,6 +267,9 @@ export const certifications = [
   { name: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate", issuer: "Oracle", year: "2025" },
   { name: "API Fundamentals Student Expert", issuer: "Postman", year: "2026" },
   { name: "Gemini Certified University Student", issuer: "Google", year: "2025" },
+  { name: "Agents and Workflows", issuer: "OpenAI", year: "2026" },
+  { name: "Claude Academy: AI Fluency: Framework & Foundations", issuer: "Anthropic", year: "2026" },
+  { name: "Critical Thinking in the AI Era", issuer: "HP Life", year: "2026" },
 ];
 
 export const hackathons = [

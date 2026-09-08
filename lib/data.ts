@@ -301,7 +301,7 @@ export const hackathons = [
 
 export const achievements = [
   { label: "Projects Shipped", value: 6 },
-  { label: "GitHub Contributions", value: 370 },
+  { label: "GitHub Contributions", value: 450 },
   { label: "Hackathons", value: 8 },
   { label: "Certifications", value: 6 },
   { label: "Community Events Led", value: 5 },

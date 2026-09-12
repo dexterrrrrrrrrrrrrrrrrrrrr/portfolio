@@ -38,7 +38,7 @@ Open http://localhost:3000.
   the initial font fetch.
 - Custom cursor, magnetic buttons, tilt project cards, scroll-reveals, a Cmd/Ctrl+K command
   palette, and a loading intro are all implemented with Framer Motion + vanilla Canvas — no
-  Three.js/GSAP/Spline dependency, so the project builds and runs with zero extra setup.
+  Three.js/GSAP/Spline dependency, so the project builds and runs with zero extra setup..
 
 
 ## Stack

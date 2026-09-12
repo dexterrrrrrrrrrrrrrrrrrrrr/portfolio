@@ -40,13 +40,6 @@ Open http://localhost:3000.
   palette, and a loading intro are all implemented with Framer Motion + vanilla Canvas — no
   Three.js/GSAP/Spline dependency, so the project builds and runs with zero extra setup.
 
-## Where to go further
-
-If you want a real 3D moment (an interactive globe, a Spline hero scene, a Three.js particle
-field), the cleanest place to add it is inside `components/Hero.tsx` — swap `<MeshBackground />`
-for an `@react-three/fiber` `<Canvas>` or an embedded Spline scene once you have a hosted scene
-URL. That's intentionally left out here since it adds real bundle weight and a hosted
-dependency you'd need to own.
 
 ## Stack
 

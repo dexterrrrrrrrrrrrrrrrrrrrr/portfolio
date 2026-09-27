@@ -126,6 +126,35 @@ export type Project = {
 };
 
 export const projects: Project[] = [
+    {
+    slug: "smartrag",
+    title: "SmartRAG",
+    tag: "AI Engineering",
+    status: "Live",
+    description:
+      "An intelligent RAG system that combines semantic caching and cost-aware LLM routing to deliver faster, more efficient AI responses.",
+    longDescription:
+      "SmartRAG combines document retrieval, semantic caching, and query complexity analysis to intelligently route requests between lightweight and larger LLMs. It uses Qdrant for vector search, Redis for semantic caching, and Ollama for local LLM inference, with real-time analytics for cache hits, latency, routing, and cost metrics.",
+    tech: [
+      "Python",
+      "FastAPI",
+      "Ollama",
+      "Qdrant",
+      "Redis",
+      "Sentence Transformers",
+      "Streamlit",
+      "Docker",
+    ],
+    features: [
+      "Semantic response caching",
+      "Cost-aware LLM routing",
+      "Query complexity detection",
+      "Vector-based document retrieval",
+      "Real-time performance analytics",
+    ],
+    githubUrl:
+      "https://github.com/dexterrrrrrrrrrrrrrrrrrrrr/smartrag",
+  },
   {
     slug: "local-mesh-alert-network",
     title: "Local Mesh Alert Network",

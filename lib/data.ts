@@ -369,10 +369,10 @@ export const blogPosts = [
 
 export const testimonials = [
   {
-    name: "Md Zeeshan",
-    role: "Hackathon Teammate",
-    quote:
-      "Anurag is the person who turns a 2am panic into a working demo by 6am. Calm under pressure and genuinely good at the craft.",
+  name: "Md Zeeshan",
+  role: "Google Student Ambassador & IEEE Member",
+  quote:
+    "Working with Anurag, you quickly realize he's someone who doesn't wait around for things to happen. He takes an idea, gets the team moving, and somehow turns it into a working result.",
   },
   {
     name: "Alisha Pandit",
@@ -392,6 +392,12 @@ export const testimonials = [
     quote:
       "Reviews issues like he's going to maintain the code himself in five years. That kind of care is rare in student contributors.",
   },
+  {
+    name: "Dhanush M",
+    role: "Hackathon Teammate",
+    quote:
+      "Anurag is the person who turns a 2am panic into a working demo by 6am. Calm under pressure and genuinely good at the craft.",
+  }, 
 ];
 
 export const navLinks = [

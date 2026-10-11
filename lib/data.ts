@@ -303,6 +303,12 @@ export const certifications = [
 
 export const hackathons = [
   {
+  year: "2026",
+  name: "Cypher 4.0 Hackathon",
+  result: "Winner | 1st Place 🏆",
+  detail: "Secured 1st place among 450+ participants in an 18-hour hackathon organized by the Rotaract Club of Atria Institute of Technology, Bengaluru.",
+ },
+  {
     year: "2026",
     name: "Cepheus Hackathon",
     result: "Finalist",

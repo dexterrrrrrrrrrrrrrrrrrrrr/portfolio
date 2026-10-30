@@ -307,6 +307,12 @@ export const hackathons = [
   name: "Cypher 4.0 Hackathon",
   result: "Winner | 1st Place 🏆",
   detail: "Secured 1st place among 450+ participants in an 18-hour hackathon organized by the Rotaract Club of Atria Institute of Technology, Bengaluru.",
+  },
+  {
+  year: "2026",
+  name: "National Level Hackathon 3.0",
+  result: "Runner-Up | 2nd Place 🥈",
+  detail: "Secured 2nd place at National Level Hackathon 3.0, organized by the Department of Computer Science & Engineering, RR Institute of Technology, Bengaluru, under the theme 'Innovate for Impact: Technology Solutions for Real-World Challenges'.",
  },
   {
     year: "2026",

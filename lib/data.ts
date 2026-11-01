@@ -311,7 +311,7 @@ export const hackathons = [
   {
   year: "2026",
   name: "National Level Hackathon 3.0",
-  result: "Runner-Up | 2nd Place 🥈",
+  result: "Runner-Up  2nd Place 🥈",
   detail: "Secured 2nd place at National Level Hackathon 3.0, organized by the Department of Computer Science & Engineering, RR Institute of Technology, Bengaluru, under the theme 'Innovate for Impact: Technology Solutions for Real-World Challenges'.",
  },
   {

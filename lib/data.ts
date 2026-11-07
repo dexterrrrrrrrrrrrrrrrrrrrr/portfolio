@@ -154,6 +154,73 @@ export const projects: Project[] = [
     ],
     githubUrl:
       "https://github.com/dexterrrrrrrrrrrrrrrrrrrrr/smartrag",
+    },
+    {
+    slug: "agentshield-ai",
+    title: "AgentShield-AI",
+    tag: "Agentic AI & Cybersecurity",
+    status: "Live",
+    description:
+      "A secure Agentic AI platform combining intelligent agent orchestration, human-in-the-loop approvals, isolated code execution, and real-time monitoring.",
+    longDescription:
+      "AgentShield-AI is a full-stack Agentic AI platform built using LangGraph, Groq, FastAPI, Next.js, MongoDB, and Docker. It enables AI agents to execute tools through controlled workflows while enforcing explicit human approval for agent-initiated code execution. The platform features an isolated Docker-based sandbox supporting six programming languages, authenticated user sessions, execution monitoring, and audit logging. Its interactive AI Playground and security-focused dashboard provide transparency and control over agent activities.",
+    tech: [
+      "Python",
+      "FastAPI",
+      "LangGraph",
+      "Groq",
+      "Next.js",
+      "TypeScript",
+      "MongoDB",
+      "Docker",
+      "Tailwind CSS",
+      "WebSockets",
+    ],
+    features: [
+      "LangGraph-based AI agent orchestration",
+      "Human-in-the-loop execution approvals",
+      "Isolated Docker code execution sandbox",
+      "Support for Python, C, C++, Java, JavaScript, and TypeScript",
+      "Real-time agent monitoring and audit logs",
+      "Authenticated AI Playground with tool execution",
+      "Execution limits and security controls",
+      "Responsive dashboard with AI digital stardust animations",
+    ],
+    githubUrl:
+      "https://github.com/dexterrrrrrrrrrrrrrrrrrrrr/AgentShield-AI",
+  },
+  {
+    slug: "graphmind-graphrag",
+    title: "GraphMind GraphRAG",
+    tag: "AI Engineering",
+    status: "Live",
+    description:
+      "A knowledge graph-enhanced RAG system combining semantic vector search, graph relationships, and local LLMs for context-aware question answering.",
+    longDescription:
+      "GraphMind GraphRAG is a locally powered retrieval-augmented generation system that combines Neo4j knowledge graphs with semantic vector retrieval to improve contextual understanding and multi-hop question answering. It extracts entities and relationships from documents, organizes them into a knowledge graph, and retrieves relevant information through graph traversal and vector similarity search. The system uses Ollama with a locally hosted Qwen model for information extraction and response generation, FastAPI for backend services, and Streamlit for an interactive interface.",
+    tech: [
+      "Python",
+      "FastAPI",
+      "Neo4j",
+      "Ollama",
+      "Qwen",
+      "GraphRAG",
+      "Vector Search",
+      "Streamlit",
+      "Docker",
+    ],
+    features: [
+      "Knowledge graph construction from documents",
+      "Entity and relationship extraction",
+      "Hybrid graph and vector retrieval",
+      "Multi-hop question answering",
+      "Local LLM inference using Ollama",
+      "Interactive Streamlit dashboard",
+      "Graph-based contextual retrieval",
+      "Containerized deployment with Docker",
+    ],
+    githubUrl:
+      "https://github.com/dexterrrrrrrrrrrrrrrrrrrrr/graphmind-graphrag",
   },
   {
     slug: "local-mesh-alert-network",

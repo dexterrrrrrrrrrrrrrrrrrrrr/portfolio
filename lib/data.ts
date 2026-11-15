@@ -315,6 +315,34 @@ liveUrl: "https://eye-disease-prediction-ffdexterrrrrrrrrrrrr.streamlit.app/",
     githubUrl: "https://github.com/dexterrrrrrrrrrrrrrrrrrrrr/Bharath-Sync",
   },
   {
+  slug: "disha-360",
+  title: "Disha 360",
+  tag: "AI-Powered Placement Training & Career Development",
+  status: "Live",
+  description:
+    "An AI-powered placement preparation and career development platform designed to help students become industry-ready through personalized learning, skill assessments, structured placement training, and intelligent career guidance.",
+  tech: [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Groq AI",
+    "Vercel"
+  ],
+  features: [
+    "AI-powered personalized career guidance",
+    "Aptitude and technical interview preparation",
+    "Skill-gap analysis and personalized learning roadmaps",
+    "AI-assisted mock interviews and assessments",
+    "Placement-focused learning resources",
+    "Student progress tracking and performance analytics",
+    "Personalized recommendations for career readiness"
+  ],
+  liveUrl: "https://disha360-cypher.vercel.app/",
+  },
+  {
     slug: "ai-interview-assistant",
     title: "AI Interview Assistant",
     tag: "Generative AI",
@@ -327,21 +355,7 @@ liveUrl: "https://eye-disease-prediction-ffdexterrrrrrrrrrrrr.streamlit.app/",
       "Real-time answer scoring",
       "Structured feedback reports",
     ],
-  },
-  {
-    slug: "smart-education-platform",
-    title: "Smart Education Platform",
-    tag: "Generative AI in Edtech",
-    status: "Upcoming",
-    description:
-      "A concept platform that uses generative AI to turn a syllabus into adaptive lesson plans, auto-generated quizzes, and a personal pace for every student.",
-    tech: ["Next.js", "OpenAI API", "MongoDB", "Node.js"],
-    features: [
-      "Adaptive lesson generation",
-      "Auto-generated assessments",
-      "Personalized learning pace",
-    ],
-  },
+   },
   {
     slug: "cv-attendance-system",
     title: "Computer Vision Attendance System",
